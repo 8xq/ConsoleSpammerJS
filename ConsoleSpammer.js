@@ -11,7 +11,7 @@ Delay is the amount of Milliseconds each console log should take before logging 
 ConsoleMessages is an empty array that we will store our Console messages into
 */
 let Loop = true; // By default this is set to true to "spam the console"
-let ClearConsole = true; //  By default this is set to false as we do not want to clear previous console logs
+let ClearConsole = false; //  By default this is set to false as we do not want to clear previous console logs
 let Delay = 50; // Default delay is 1,000 MS (1 second) between console logging
 var ConsoleMessages = []; // This is an empty array , we use arrays so we can select at random easier
 
